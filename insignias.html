@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Insignias</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+      color: #333;
+    }
+
+    h1 {
+      color: #2c3e50;
+      margin-bottom: 30px;
+    }
+
+    .insignias-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .insignia-card {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 220px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .insignia-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .insignia-img {
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+      margin-bottom: 15px;
+    }
+
+    .insignia-title {
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #34495e;
+    }
+
+    .insignia-desc {
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Mis Insignias</h1>
+
+  <div class="insignias-container">
+    <!-- Insignia 1 -->
+    <div class="insignia-card">
+      <img src="insignias/cybersecurity-fundamentals.png" alt="Insignia Cybersecurity Fundamentals" class="insignia-img">
+      <div class="insignia-title">Cybersecurity Fundamentals</div>
+      <div class="insignia-desc">Obtenida al completar el módulo básico de ciberseguridad en IBM SkillsBuild.</div>
+    </div>
+
+    <!-- Insignia 2 -->
+    <div class="insignia-card">
+      <img src="insignias/Introduction to Cybersecurity.jpg" alt="Insignia Introducción a la Ciberseguridad" class="insignia-img">
+      <div class="insignia-title">Introducción a la Ciberseguridad</div>
+      <div class="insignia-desc">Reconocimiento por finalizar con éxito el curso de Cisco y MinTIC.</div>
+    </div>
+
+    <!-- Insignia 3 -->
+    <div class="insignia-card">
+      <img src="insignias/python-essentials-2.png" alt="Insignia Python Essentials 2" class="insignia-img">
+      <div class="insignia-title">Python Essentials 2</div>
+      <div class="insignia-desc">Insignia otorgada por la finalización del curso Python Essentials en Networking Academy.</div>
+    </div>
+
+    <!-- Puedes agregar más insignias duplicando esta estructura -->
+  </div>
+</body>
+
+</html>
